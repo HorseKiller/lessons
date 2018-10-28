@@ -1,5 +1,8 @@
 package parallel.a_threads.b_join;
 
+/**
+ * Этот поток быдет выполняться, пока его заверения ожидает другой поток
+ */
 public class SlaveThread implements Runnable {
     @Override
     public void run() {

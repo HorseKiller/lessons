@@ -1,9 +1,12 @@
 package parallel.a_threads.b_join;
 
+/**
+ * Этот поток будет ожидать выполнение другого потока
+ */
 public class MasterThread implements Runnable {
     private final Thread slave;
 
-    public MasterThread(Thread slave) {
+    MasterThread(final Thread slave) {
         this.slave = slave;
     }
 

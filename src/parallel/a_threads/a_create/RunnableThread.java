@@ -3,10 +3,10 @@ package parallel.a_threads.a_create;
 /***
  * @author dakon
  */
-public final class RunnbleThread implements Runnable {
+public final class RunnableThread implements Runnable {
     private final String name;
 
-    public RunnbleThread(final String threadName) {
+    RunnableThread(final String threadName) {
         this.name = threadName;
     }
 

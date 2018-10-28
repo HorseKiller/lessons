@@ -7,7 +7,7 @@ public class ThreadCreate {
      */
     public static void main(String[] args) {
         Thread thread = new Thread(
-                new RunnbleThread("Thread1")
+                new RunnableThread("Thread1")
         );
         thread.start();
     }
