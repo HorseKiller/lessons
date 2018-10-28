@@ -9,7 +9,13 @@ public class ExampleThread implements Runnable {
 
     @Override
     public void run() {
-        for(int i = 0; i < 3; i++)
+        for(int i = 0; i < 3; i++) {
             counter.increment(this.hashCode());
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException ie) {
+                ie.printStackTrace();
+            }
+        }
     }
 }
