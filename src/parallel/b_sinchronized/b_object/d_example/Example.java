@@ -1,4 +1,4 @@
-package parallel.b_sinchronized.b_object;
+package parallel.b_sinchronized.b_object.d_example;
 
 import parallel.b_sinchronized.a_methods.ExampleThread;
 

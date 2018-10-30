@@ -1,7 +1,7 @@
 package parallel.b_sinchronized.c_class;
 
 import parallel.b_sinchronized.a_methods.ExampleThread;
-import parallel.b_sinchronized.b_object.DecrementThread;
+import parallel.b_sinchronized.b_object.d_example.DecrementThread;
 
 public class Example {
     public static void main(String[] args) {
