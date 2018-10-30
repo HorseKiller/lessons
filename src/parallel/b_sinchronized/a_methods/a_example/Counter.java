@@ -1,4 +1,4 @@
-package parallel.b_sinchronized.a_methods;
+package parallel.b_sinchronized.a_methods.a_example;
 
 public class Counter {
     protected int c = 0;

@@ -1,6 +1,6 @@
 package parallel.b_sinchronized.b_object.d_example;
 
-import parallel.b_sinchronized.a_methods.ExampleThread;
+import parallel.b_sinchronized.a_methods.a_example.ExampleThread;
 
 public class Example {
     public static void main(String[] args) {

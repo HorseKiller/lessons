@@ -1,6 +1,6 @@
 package parallel.b_sinchronized.c_class;
 
-import parallel.b_sinchronized.a_methods.ExampleThread;
+import parallel.b_sinchronized.a_methods.a_example.ExampleThread;
 import parallel.b_sinchronized.b_object.d_example.DecrementThread;
 
 public class Example {

@@ -1,6 +1,6 @@
 package parallel.b_sinchronized.b_object.d_example;
 
-import parallel.b_sinchronized.a_methods.Counter;
+import parallel.b_sinchronized.a_methods.a_example.Counter;
 
 final class SCounter extends Counter {
     private Integer c = 0;

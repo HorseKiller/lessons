@@ -1,8 +1,10 @@
-package parallel.b_sinchronized.a_methods;
+package parallel.b_sinchronized.a_methods.a_example;
 
-public class Synchronized {
+public class NotSynchronized {
+
     public static void main(String[] args) {
-        final SynchronizedCounter counter = new SynchronizedCounter();
+        final Counter counter = new Counter();
+
         final Thread thread1 = new Thread(new ExampleThread(counter));
         final Thread thread2 = new Thread(new ExampleThread(counter));
 
