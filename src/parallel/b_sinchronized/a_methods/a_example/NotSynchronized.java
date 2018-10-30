@@ -17,6 +17,6 @@ public class NotSynchronized {
             ie.printStackTrace();
         }
 
-        System.out.println("Занчение - " + counter.value());
+        System.out.println("Значение - " + counter.value());
     }
 }
