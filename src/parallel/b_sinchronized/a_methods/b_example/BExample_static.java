@@ -1,16 +1,14 @@
 package parallel.b_sinchronized.a_methods.b_example;
 
-public class BExample {
+public class BExample_static {
     String sdf = "sdfsdfsdf";
     public static void main(String[] args) {
-        final SyncObject syncObject = new SyncObject();
 
         Thread thread1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 for (int i = 0; i < 5; i++) {
                     SyncObject.increment();
-                    syncObject.objIncrement();
                     sleep();
                 }
             }
@@ -21,7 +19,6 @@ public class BExample {
             public void run() {
                 for (int i = 0; i < 5; i++) {
                     SyncObject.decrement();
-                    syncObject.objDecrement();
                     sleep();
                 }
             }
